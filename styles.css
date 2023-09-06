@@ -10,10 +10,11 @@ body {
 	width: 400px;
 	height: 300px;
 	margin: auto;
-	background: white;
+	background: rgb(16, 151, 12);
 }
 .postcard-header {
 	display: flex;
+	justify-content: ;
 }
 .postcard-header img {
 	width: 50px;
@@ -25,4 +26,26 @@ body {
 }
 .postcard-body {
 	display: flex;
+}
+.body-left,
+.body-right {
+	padding: 5px;
+}
+input {
+	border: none;
+	border-bottom: 1px grey;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	text-align: center;
+	background-color: blue;
+	padding: 5px 10px;
+}
+
+.body-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 }
