@@ -2,7 +2,7 @@ body {
 	background: black;
 }
 * {
-	border: 1px dashed red;
+
 	min-height: 10px;
 }
 
@@ -10,7 +10,7 @@ body {
 	width: 400px;
 	height: 300px;
 	margin: auto;
-	background: rgb(16, 151, 12);
+	background: rgb(242, 245, 242);
 }
 .postcard-header {
 	display: flex;
@@ -39,13 +39,13 @@ input {
 	text-align: center;
 }
 button {
-  text-align: center;
-	background-color: blue;
+	text-align: center;
+	background-color: rgb(8, 206, 241);
 	padding: 5px 10px;
 }
 
 .body-right {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 }
